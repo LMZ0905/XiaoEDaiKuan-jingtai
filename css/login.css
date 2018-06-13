@@ -1,0 +1,160 @@
+@charset 'utf-8';
+
+
+
+/* 登录区域  begin*/
+.xe-main{
+    background: url("../sources/images/bji.jpg.jpg") no-repeat ;
+    background-size:100% 450px;
+    height: 450px;
+    min-width:960px ;
+}
+
+.main-box{
+    height: 560px;
+    margin: 0 auto;
+    padding-top: 140px;
+    width: 960px;
+}
+.login-box{
+    background-color: #fff;
+    height: 260px;
+    box-shadow: #666 0 0 3px;
+    margin-left: 710px;
+    width: 260px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.login-box>h3{
+    color:#2887d7;
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+/* #login-menu >li{
+    padding:5px 0px;
+    height: 36px;
+} */
+/* #login-menu>li:nth-child(0) input{
+
+} */
+#u_name,#u_password{
+    height: 20px;
+    padding: 5px 0px;
+    margin-bottom: 7px;
+    width: 90%;
+    font-size: 18px;
+    color: #666;
+    outline: none;
+    text-indent: 30px;
+}
+.verify-code{
+    float: right;
+    margin-right: 20px;
+
+}
+.verify-input-area{
+    width:100px!important;
+    /* border: 1px solid red; */
+}
+.varify-input-code{
+    height:28px!important;
+    width: 104px;
+    text-indent: 30px;
+}
+.verify-change-area{
+    display:none;
+}
+/* 设置登录区域 end */
+
+
+
+.xe-herder{
+    width: 100%;
+    height:100px;
+}
+.xe-logo{
+    width: 500px;
+    height: 90px;
+    text-height:90px;
+    display: inline-block;
+}
+.xe-logo h1 a img{
+    margin-top: 29px;
+    margin-left: 70px;
+    float: left;
+}
+.xe-logo h2{
+    margin-top: 31px;
+    margin-left: 40px;
+    float: left;
+    color:#2887d7;
+    font-size: 26px;
+    
+}
+
+.xe-help a img{
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+.xe-help{
+    /* border: 1px solid red; */
+    display: inline-block;
+    position: absolute;
+    margin-top:34px;
+    margin-left: 640px;
+    margin-right:40px;
+    width: 200px;
+    height:40px;
+}
+.xe-footer{
+    color: #ccc;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.dianjikuang{
+    margin: 10px 0px;
+   
+    width: 260px;
+    font-size: 12px;
+    height: 10px;
+    
+}
+#login-menu .dianjikuang span{
+  
+    display: inline-block;
+    /* margin-right: 25px; */
+  margin-top:2px;
+  margin-right: 25px;
+}
+#login-menu .dianjikuang input{
+    vertical-align: middle;
+}
+.login-box #login{
+    margin-top: 23px;
+    height: 30px;
+    margin-bottom: 7px;
+    width: 241px;
+    font-size: 18px;
+    text-indent: 30px;
+    background-color:#2887d7;
+    padding-right: 30px;
+    color: #fff;
+    border: 0px;
+}
+#login-menu {
+    position: relative;
+}
+#login-menu .ren{
+   position: absolute;
+   top: 10px;
+   left: 5px;
+}
+#login-menu .suo{
+    position: absolute;
+    top: 50px;
+    left: 5px;
+ }
+ .red{
+     color: red;
+ }
